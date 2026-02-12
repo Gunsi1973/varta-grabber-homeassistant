@@ -9,7 +9,7 @@ import paho.mqtt.client as mqtt
 
 # --- Configuration ---
 DEFAULT_VARTA_IP = "192.168.1.58" 
-DEFAULT_INTERVAL = 5 
+DEFAULT_INTERVAL = 1 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
